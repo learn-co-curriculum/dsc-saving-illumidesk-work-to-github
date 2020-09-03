@@ -52,7 +52,7 @@ Learn more about how contributions are counted [Here](https://docs.github.com/en
 
 #### Change the Origin URL for GitHub  
 
-- Change the remote location that GitHub will push your work to using `git remot set-url origin` and the repo location you copied to your clipboard from the for you created in the first steps of this lesson.  
+- Change the remote location that GitHub will push your work to using `git remote set-url origin` and the repo location you copied to your clipboard from the for you created in the first steps of this lesson.  
 
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/set-origin.png' width='600'>  
 
