@@ -52,11 +52,34 @@ Learn more about how contributions are counted [Here](https://docs.github.com/en
 
 #### Change the Origin URL for GitHub  
 
-- Change the remote location that GitHub will push your work to using `git remote set-url origin` and the repo location you copied to your clipboard from the for you created in the first steps of this lesson.  
+- Change the remote location that GitHub will push your work to using `git remote set-url origin` and the repo location you copied to your clipboard from the fork you created in the first steps of this lesson.  
 
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/set-origin.png' width='600'>  
 
+---
 
 #### Stage and Commit Your Work
 
-#### Push Your Work to GitHub
+- Now that you have set the origin to your forked repository, you can stage, commit and push your work.  
+
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/commit.png' width='600'>  
+
+
+#### Push Your Work to GitHub  
+
+- Now that you have staged and commited your work, you are ready to complete the task by pushing the changes to GitHub. The `push` command will prompt you to enter your GitHub username and password before your oush can bhe completed.  
+
+- push
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/push.png' width='600'>  
+
+- Enter your GitHub user name  
+
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/user-name.png' width='600'>  
+
+- Enter your password  
+
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/password.png' width='600'>  
+
+- If everything goes as planned, it should look something like this:  
+
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/success.png' width='600'>
