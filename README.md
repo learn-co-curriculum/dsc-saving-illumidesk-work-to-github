@@ -95,7 +95,10 @@ The next step of the process cannot be easily done in  Jupyter Notebook, so we w
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/new-terminal.png' width='600'>  
 
 
-- Navigate to the directory of the lesson using `cd` followed by the name of the repository:  
+- Navigate to the directory of the lesson using the `cd` command followed by the name of the repository:  
+```
+cd <your lesson directory here>
+```
 
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/cd-repo-name.png' width='600'>  
 
@@ -105,7 +108,9 @@ The next step of the process cannot be easily done in  Jupyter Notebook, so we w
 
 - Now that you have staged and commited your work, you are ready to complete the task by pushing the changes to GitHub. The `push` command will prompt you to enter your GitHub username and password before your oush can bhe completed.  
 
-- push  
+```
+git push
+```  
 
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/push.png' width='600'>  
 
