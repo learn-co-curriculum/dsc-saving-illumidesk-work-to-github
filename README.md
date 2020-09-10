@@ -106,7 +106,7 @@ cd <your lesson directory here>
 
 #### Push Your Work to GitHub  
 
-- Now that you have staged and commited your work, you are ready to complete the task by pushing the changes to GitHub. The `push` command will prompt you to enter your GitHub username and password before your oush can bhe completed.  
+- Now that you have staged and commited your work, you are ready to complete the task by pushing the changes to GitHub. The `push` command will prompt you to enter your GitHub username and password before your push can be completed.  
 
 ```
 git push
