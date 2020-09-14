@@ -79,7 +79,7 @@ cd <your lesson directory here>
 
 ## Change the Origin URL for GitHub  
 
-- Change the remote location that GitHub will push your work to using `!git remote set-url origin` and the repo location you copied to your clipboard from the fork you created in the first steps of this lesson.  
+- Change the remote location that GitHub will push your work to using `git remote set-url origin` and the repo location you copied to your clipboard from the fork you created in the first steps of this lesson.  
 
 ```
 git remote set-url origin <your copied fork url here>
