@@ -16,13 +16,13 @@ You will be able to:
 - Save your work from Illumidesk to GitHub
 - Open a new terminal in Illumidesk  
 - Earn credit for your work on your GitHub contribution graph  
-
+<!--
 ## ! Bang  
 
 Before we bigin this process, a quick note about a character we will be using.  Some of the commands we will be using are normally executed in Terminal or Command Prompt, but we will be sending our commands to the terminal from Jupyter Notebook with the (`!`) Bang.  Prepending a command with the (`!`) will allow you to execute terminal commands from the notebook.
 
 Learn more about (`!`) Bang [Here](https://anaconda.zendesk.com/hc/en-us/articles/360023858254-Executing-Terminal-Commands-in-Jupyter-Notebooks#:~:text=In%20Jupyter%20Notebook%20you%20can,you%20are%20trying%20to%20use.)
-
+-->
 ## Fork the Repo from GitHub  
 
 - Navigate to the lesson's repsitory from Canvas using the GitHub repository link  
@@ -50,35 +50,9 @@ Learn more about (`!`) Bang [Here](https://anaconda.zendesk.com/hc/en-us/article
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/your-fork-url.png' width='600'>  
 
 
-
-## Change the Origin URL for GitHub  
-
-- Change the remote location that GitHub will push your work to using `!git remote set-url origin` and the repo location you copied to your clipboard from the fork you created in the first steps of this lesson.  
-
-```
-!git remote set-url origin <your copied fork url here>
-```
-
-
-<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/set-origin.png' width='600'>  
-
-
-
-#### Stage and Commit Your Work
-
-- Now that you have set the origin to your forked repository, you can stage and commit your work.  
-```
-!git add .
-!git commit -m '<your message here>'
-```
-
-<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/stage-and-commit.png' width='600'>  
-
-
-
 ## Open the lesson in Illumidesk  
 
-The next step of the process cannot be easily done in  Jupyter Notebook, so we will do this part in a terminal in Illumidesk
+The next step of the process can mostly be done in a Jupyter Notebook, but it is a good opportunity to get familiar with command line operations or working in Terminal, so we will do this part in a terminal in Illumidesk
 
 - Open your Illumidesk control panel by clicking on the `Control Panel` button in the upper right corner of the notebook.
 
@@ -95,12 +69,41 @@ The next step of the process cannot be easily done in  Jupyter Notebook, so we w
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/new-terminal.png' width='600'>  
 
 
-- Navigate to the directory of the lesson using the `cd` command followed by the name of the repository:  
+- Navigate to the directory of the lesson using the `cd` command followed by the name of the repository which begins with `dsc-`:  
 ```
 cd <your lesson directory here>
 ```
 
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/cd-repo-name.png' width='600'>  
+
+
+## Change the Origin URL for GitHub  
+
+- Change the remote location that GitHub will push your work to using `!git remote set-url origin` and the repo location you copied to your clipboard from the fork you created in the first steps of this lesson.  
+
+```
+git remote set-url origin <your copied fork url here>
+```
+
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/set-origin.png' width='600'>  
+
+
+
+#### Stage and Commit Your Work
+
+- Now that you have set the origin to your forked repository, you can stage and commit your work.  
+
+```
+git add .
+```  
+
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/stage-changes.png' width='600'>
+
+```
+git commit -m '<your message here>'
+```
+
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/commit-changes.png' width='600'>  
 
 
 
@@ -130,7 +133,14 @@ git push
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/success.png' width='600'>
 
 
-
 ## Summary  
 
-In this lesson, you were able to save the work you have done to your personal GitHub profile so you can begin showing activity on your GitHub profile.
+In this lesson, you were able to save the work you have done to your personal GitHub profile so you can begin showing activity on your GitHub profile.  Below is a block containing all of the code used in this process:
+
+```
+cd <your directory here>
+git remote set-url origin <your repository url here>
+git add .
+git commit -m '<your message here>'
+git push
+```
