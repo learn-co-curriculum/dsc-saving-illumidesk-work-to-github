@@ -64,7 +64,13 @@ The next step of the process can mostly be done in a Jupyter Notebook, but it is
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/my-server.png' width='600'>  
 
 
-- Click the `New` drop down menu and choose `Terminal` and locate the command prompt   
+- Click the `New` drop down menu and choose `Terminal` and locate the command prompt  
+  - _If you have not set up your github credentials in Illumidesk, you will need to run the following commands:_  
+  
+ ```git config --global user.name "your github username here"
+ ```
+ ``` git config --global user.email "your github email here"
+ ```
 
 <img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-saving-illumidesk-work-to-github/master/images/new-terminal.png' width='600'>  
 
